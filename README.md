@@ -350,7 +350,7 @@ chmod 755 Scripts
 
 Run basic functionality test:
 ```bash
-node -e "console.log('Testing...'); require('./script_generator.js');"
+node -e "console.log('Testing...'); require('./index.js');"
 ```
 
 ### Contributing
