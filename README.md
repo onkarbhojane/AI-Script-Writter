@@ -59,12 +59,7 @@ Before you begin, ensure you have:
    npm install node-fetch
    ```
 
-3. **Create the Scripts directory**
-   ```bash
-   mkdir Scripts
-   ```
-
-4. **Run the generator**
+3. **Run the generator**
    ```bash
    node Agent.js
    ```
@@ -237,7 +232,8 @@ For: ${userPrompt}`;
 
 ```
 project-root/
-├── script_generator.js
+├── Agent.js
+├── index.js
 ├── package.json
 └── Scripts/
     ├── The_Code_Of_My_Life.celtx
@@ -329,8 +325,9 @@ chmod 755 Scripts
 ### Project Structure
 
 ```
-src/
-├── script_generator.js    # Main application
+├── Scripts
+├── Agent.js    # Main application
+├── index.js
 ├── package.json          # Dependencies
 └── README.md            # This file
 ```
