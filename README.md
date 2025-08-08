@@ -50,8 +50,8 @@ Before you begin, ensure you have:
 
 1. **Clone or download the project**
    ```bash
-   git clone [your-repo-url]
-   cd celtx-script-generator
+   git clone https://github.com/onkarbhojane/AI-Script-Writter
+   cd AI-Script-Writter
    ```
 
 2. **Install dependencies**
@@ -66,7 +66,7 @@ Before you begin, ensure you have:
 
 4. **Run the generator**
    ```bash
-   node script_generator.js
+   node Agent.js
    ```
 
 ## 📖 Usage
@@ -75,7 +75,7 @@ Before you begin, ensure you have:
 
 Run with the default biographical software engineer prompt:
 ```bash
-node script_generator.js
+node Agent.js
 ```
 
 ### Custom Prompts
